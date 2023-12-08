@@ -1,0 +1,202 @@
+I, [2023-12-08T17:14:59.234579 #11476]  INFO -- wordpress-app-centos-8: -----> Cleaning up any prior instances of <wordpress-app-centos-8>
+I, [2023-12-08T17:14:59.235595 #11476]  INFO -- wordpress-app-centos-8: -----> Destroying <wordpress-app-centos-8>...
+I, [2023-12-08T17:14:59.237550 #11476]  INFO -- wordpress-app-centos-8: Finished destroying <wordpress-app-centos-8> (0m0.00s).
+I, [2023-12-08T17:14:59.238867 #11476]  INFO -- wordpress-app-centos-8: -----> Testing <wordpress-app-centos-8>
+I, [2023-12-08T17:14:59.239779 #11476]  INFO -- wordpress-app-centos-8: -----> Creating <wordpress-app-centos-8>...
+I, [2023-12-08T17:15:05.367953 #11476]  INFO -- wordpress-app-centos-8: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2023-12-08T17:15:06.064203 #11476]  INFO -- wordpress-app-centos-8: ==> default: Box 'bento/centos-7' could not be found. Attempting to find and install...
+I, [2023-12-08T17:15:06.075950 #11476]  INFO -- wordpress-app-centos-8:     default: Box Provider: virtualbox
+I, [2023-12-08T17:15:06.076172 #11476]  INFO -- wordpress-app-centos-8:     default: Box Version: >= 0
+I, [2023-12-08T17:15:08.754464 #11476]  INFO -- wordpress-app-centos-8: ==> default: Loading metadata for box 'bento/centos-7'
+I, [2023-12-08T17:15:08.754675 #11476]  INFO -- wordpress-app-centos-8:     default: URL: https://vagrantcloud.com/api/v2/vagrant/bento/centos-7
+I, [2023-12-08T17:15:09.776871 #11476]  INFO -- wordpress-app-centos-8: ==> default: Adding box 'bento/centos-7' (v202309.08.0) for provider: virtualbox
+I, [2023-12-08T17:15:09.821806 #11476]  INFO -- wordpress-app-centos-8:     default: Downloading: https://vagrantcloud.com/bento/boxes/centos-7/versions/202309.08.0/providers/virtualbox/unknown/vagrant.box
+I, [2023-12-08T17:15:52.350332 #11476]  INFO -- wordpress-app-centos-8: [K    default: 
+I, [2023-12-08T17:16:04.035754 #11476]  INFO -- wordpress-app-centos-8: ==> default: Successfully added box 'bento/centos-7' (v202309.08.0) for 'virtualbox'!
+I, [2023-12-08T17:16:05.059226 #11476]  INFO -- wordpress-app-centos-8: ==> default: Importing base box 'bento/centos-7'...
+I, [2023-12-08T17:16:43.767203 #11476]  INFO -- wordpress-app-centos-8: [KProgress: 20%[KProgress: 40%[KProgress: 60%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2023-12-08T17:16:44.443039 #11476]  INFO -- wordpress-app-centos-8: ==> default: Checking if box 'bento/centos-7' version '202309.08.0' is up to date...
+I, [2023-12-08T17:16:47.783006 #11476]  INFO -- wordpress-app-centos-8: ==> default: Setting the name of the VM: kitchen-chefWP-VAG-wordpress-app-centos-8-d7c37d28-c898-4167-a5d2-070064e3230a
+I, [2023-12-08T17:16:48.607346 #11476]  INFO -- wordpress-app-centos-8: ==> default: Fixed port collision for 22 => 2222. Now on port 2200.
+I, [2023-12-08T17:16:49.256020 #11476]  INFO -- wordpress-app-centos-8: ==> default: Clearing any previously set network interfaces...
+I, [2023-12-08T17:16:49.484122 #11476]  INFO -- wordpress-app-centos-8: ==> default: Preparing network interfaces based on configuration...
+I, [2023-12-08T17:16:49.557590 #11476]  INFO -- wordpress-app-centos-8:     default: Adapter 1: nat
+I, [2023-12-08T17:16:49.775714 #11476]  INFO -- wordpress-app-centos-8: ==> default: Forwarding ports...
+I, [2023-12-08T17:16:50.093333 #11476]  INFO -- wordpress-app-centos-8:     default: 22 (guest) => 2200 (host) (adapter 1)
+I, [2023-12-08T17:16:51.235828 #11476]  INFO -- wordpress-app-centos-8: ==> default: Running 'pre-boot' VM customizations...
+I, [2023-12-08T17:16:52.172732 #11476]  INFO -- wordpress-app-centos-8: ==> default: Booting VM...
+I, [2023-12-08T17:17:05.048154 #11476]  INFO -- wordpress-app-centos-8: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2023-12-08T17:17:07.556724 #11476]  INFO -- wordpress-app-centos-8:     default: SSH address: 127.0.0.1:2200
+I, [2023-12-08T17:17:07.556924 #11476]  INFO -- wordpress-app-centos-8:     default: SSH username: vagrant
+I, [2023-12-08T17:17:07.557078 #11476]  INFO -- wordpress-app-centos-8:     default: SSH auth method: private key
+I, [2023-12-08T17:18:18.522411 #11476]  INFO -- wordpress-app-centos-8:     default: 
+I, [2023-12-08T17:18:18.522706 #11476]  INFO -- wordpress-app-centos-8:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2023-12-08T17:18:18.522951 #11476]  INFO -- wordpress-app-centos-8:     default: this with a newly generated keypair for better security.
+I, [2023-12-08T17:18:20.575161 #11476]  INFO -- wordpress-app-centos-8:     default: 
+I, [2023-12-08T17:18:20.575372 #11476]  INFO -- wordpress-app-centos-8:     default: Inserting generated public key within guest...
+I, [2023-12-08T17:18:28.548825 #11476]  INFO -- wordpress-app-centos-8:     default: Removing insecure key from the guest if it's present...
+I, [2023-12-08T17:18:29.407253 #11476]  INFO -- wordpress-app-centos-8:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2023-12-08T17:18:31.134937 #11476]  INFO -- wordpress-app-centos-8: ==> default: Machine booted and ready!
+I, [2023-12-08T17:18:31.297049 #11476]  INFO -- wordpress-app-centos-8: ==> default: Checking for guest additions in VM...
+I, [2023-12-08T17:18:31.366398 #11476]  INFO -- wordpress-app-centos-8:     default: The guest additions on this VM do not match the installed version of
+I, [2023-12-08T17:18:31.366709 #11476]  INFO -- wordpress-app-centos-8:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2023-12-08T17:18:31.367008 #11476]  INFO -- wordpress-app-centos-8:     default: prevent things such as shared folders from working properly. If you see
+I, [2023-12-08T17:18:31.367304 #11476]  INFO -- wordpress-app-centos-8:     default: shared folder errors, please make sure the guest additions within the
+I, [2023-12-08T17:18:31.367477 #11476]  INFO -- wordpress-app-centos-8:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2023-12-08T17:18:31.367638 #11476]  INFO -- wordpress-app-centos-8:     default: your host and reload your VM.
+I, [2023-12-08T17:18:31.367800 #11476]  INFO -- wordpress-app-centos-8:     default: 
+I, [2023-12-08T17:18:31.368019 #11476]  INFO -- wordpress-app-centos-8:     default: Guest Additions Version: 7.0.10
+I, [2023-12-08T17:18:31.368292 #11476]  INFO -- wordpress-app-centos-8:     default: VirtualBox Version: 6.1
+I, [2023-12-08T17:18:31.393799 #11476]  INFO -- wordpress-app-centos-8: ==> default: Setting hostname...
+I, [2023-12-08T17:18:34.695262 #11476]  INFO -- wordpress-app-centos-8: ==> default: Mounting shared folders...
+I, [2023-12-08T17:18:34.695450 #11476]  INFO -- wordpress-app-centos-8:     default: /tmp/omnibus/cache => C:/Users/Yanneth/.kitchen/cache
+I, [2023-12-08T17:18:38.073951 #11476]  INFO -- wordpress-app-centos-8: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2023-12-08T17:19:01.346981 #11476]  INFO -- wordpress-app-centos-8: [SSH] Established
+I, [2023-12-08T17:19:01.348995 #11476]  INFO -- wordpress-app-centos-8: Vagrant instance <wordpress-app-centos-8> created.
+I, [2023-12-08T17:19:01.351095 #11476]  INFO -- wordpress-app-centos-8: Finished creating <wordpress-app-centos-8> (4m2.11s).
+I, [2023-12-08T17:19:01.352621 #11476]  INFO -- wordpress-app-centos-8: -----> Converging <wordpress-app-centos-8>...
+I, [2023-12-08T17:19:02.856700 #11476]  INFO -- wordpress-app-centos-8: Preparing files for transfer
+I, [2023-12-08T17:19:02.857767 #11476]  INFO -- wordpress-app-centos-8: Preparing dna.json
+I, [2023-12-08T17:19:02.882854 #11476]  INFO -- wordpress-app-centos-8: Preparing cookbooks from project directory
+I, [2023-12-08T17:19:02.994050 #11476]  INFO -- wordpress-app-centos-8: Removing non-cookbook files before transfer
+I, [2023-12-08T17:19:03.044309 #11476]  INFO -- wordpress-app-centos-8: Preparing validation.pem
+I, [2023-12-08T17:19:03.078372 #11476]  INFO -- wordpress-app-centos-8: Preparing client.rb
+I, [2023-12-08T17:19:03.435793 #11476]  INFO -- wordpress-app-centos-8: -----> Installing Chef install only if missing package
+I, [2023-12-08T17:19:03.439457 #11476]  INFO -- wordpress-app-centos-8: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2023-12-08T17:19:03.452067 #11476]  INFO -- wordpress-app-centos-8: Trying curl...
+I, [2023-12-08T17:19:04.674134 #11476]  INFO -- wordpress-app-centos-8: Download complete.
+I, [2023-12-08T17:19:04.796383 #11476]  INFO -- wordpress-app-centos-8: el 7 x86_64
+I, [2023-12-08T17:19:04.796696 #11476]  INFO -- wordpress-app-centos-8: Getting information for chef stable  for el...
+I, [2023-12-08T17:19:04.796946 #11476]  INFO -- wordpress-app-centos-8: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=el&pv=7&m=x86_64
+I, [2023-12-08T17:19:04.797141 #11476]  INFO -- wordpress-app-centos-8:   to file /tmp/install.sh.2904/metadata.txt
+I, [2023-12-08T17:19:04.801594 #11476]  INFO -- wordpress-app-centos-8: trying curl...
+I, [2023-12-08T17:19:05.694496 #11476]  INFO -- wordpress-app-centos-8: sha1	015278f16f97dea996f7b133b08b776ae8d33467
+I, [2023-12-08T17:19:05.694748 #11476]  INFO -- wordpress-app-centos-8: sha256	2c7e3edda9b40fd608146e05e200feec25c578fc95f019e7ec440d9adb3117ab
+I, [2023-12-08T17:19:05.694940 #11476]  INFO -- wordpress-app-centos-8: url	https://packages.chef.io/files/stable/chef/18.3.0/el/7/chef-18.3.0-1.el7.x86_64.rpm
+I, [2023-12-08T17:19:05.695143 #11476]  INFO -- wordpress-app-centos-8: version	18.3.0
+I, [2023-12-08T17:19:05.708871 #11476]  INFO -- wordpress-app-centos-8: downloaded metadata file looks valid...
+I, [2023-12-08T17:19:05.753829 #11476]  INFO -- wordpress-app-centos-8: downloading https://packages.chef.io/files/stable/chef/18.3.0/el/7/chef-18.3.0-1.el7.x86_64.rpm
+I, [2023-12-08T17:19:05.754109 #11476]  INFO -- wordpress-app-centos-8:   to file /tmp/omnibus/cache/chef-18.3.0-1.el7.x86_64.rpm
+I, [2023-12-08T17:19:05.755626 #11476]  INFO -- wordpress-app-centos-8: trying curl...
+I, [2023-12-08T17:19:10.542802 #11476]  INFO -- wordpress-app-centos-8: Comparing checksum with sha256sum...
+I, [2023-12-08T17:19:11.370661 #11476]  INFO -- wordpress-app-centos-8: 
+I, [2023-12-08T17:19:11.370891 #11476]  INFO -- wordpress-app-centos-8: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2023-12-08T17:19:11.371050 #11476]  INFO -- wordpress-app-centos-8: 
+I, [2023-12-08T17:19:11.371199 #11476]  INFO -- wordpress-app-centos-8: You are installing a package without a version pin.  If you are installing
+I, [2023-12-08T17:19:11.371428 #11476]  INFO -- wordpress-app-centos-8: on production servers via an automated process this is DANGEROUS and you will
+I, [2023-12-08T17:19:11.371604 #11476]  INFO -- wordpress-app-centos-8: be upgraded without warning on new releases, even to new major releases.
+I, [2023-12-08T17:19:11.371775 #11476]  INFO -- wordpress-app-centos-8: Letting the version float is only appropriate in test, development or
+I, [2023-12-08T17:19:11.371950 #11476]  INFO -- wordpress-app-centos-8: CI/CD environments.
+I, [2023-12-08T17:19:11.372101 #11476]  INFO -- wordpress-app-centos-8: 
+I, [2023-12-08T17:19:11.372262 #11476]  INFO -- wordpress-app-centos-8: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2023-12-08T17:19:11.372405 #11476]  INFO -- wordpress-app-centos-8: 
+I, [2023-12-08T17:19:11.372553 #11476]  INFO -- wordpress-app-centos-8: Installing chef 
+I, [2023-12-08T17:19:11.372704 #11476]  INFO -- wordpress-app-centos-8: installing with rpm...
+I, [2023-12-08T17:19:11.850108 #11476]  INFO -- wordpress-app-centos-8: warning: /tmp/omnibus/cache/chef-18.3.0-1.el7.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
+I, [2023-12-08T17:19:14.258180 #11476]  INFO -- wordpress-app-centos-8: Preparing...                                                            (100%)#                                 (100%)##                                (100%)###                               (100%)####                              (100%)#####                             (100%)######                            (100%)#######                           (100%)########                          (100%)#########                         (100%)##########                        (100%)###########                       (100%)############                      (100%)#############                     (100%)##############                    (100%)###############                   (100%)################                  (100%)#################                 (100%)##################                (100%)###################               (100%)####################              (100%)#####################             (100%)######################            (100%)#######################           (100%)########################          (100%)#########################         (100%)##########################        (100%)###########################       (100%)############################      (100%)#############################     (100%)##############################    (100%)###############################   (100%)################################  (100%)################################# (100%)################################# [100%]
+I, [2023-12-08T17:19:14.334368 #11476]  INFO -- wordpress-app-centos-8: Updating / installing...
+I, [2023-12-08T17:19:29.539402 #11476]  INFO -- wordpress-app-centos-8:    1:chef-18.3.0-1.el7                                                  (  1%)#                                 (  4%)##                                (  7%)###                               ( 10%)####                              ( 13%)#####                             ( 16%)######                            ( 19%)#######                           ( 22%)########                          ( 25%)#########                         ( 28%)##########                        ( 31%)###########                       ( 34%)############                      ( 37%)#############                     ( 40%)##############                    ( 43%)###############                   ( 46%)################                  ( 49%)#################                 ( 51%)##################                ( 54%)###################               ( 57%)####################              ( 60%)#####################             ( 63%)######################            ( 66%)#######################           ( 69%)########################          ( 72%)#########################         ( 75%)##########################        ( 78%)###########################       ( 81%)############################      ( 84%)#############################     ( 87%)##############################    ( 90%)###############################   ( 93%)################################  ( 96%)################################# ( 99%)################################# [100%]
+I, [2023-12-08T17:19:31.532590 #11476]  INFO -- wordpress-app-centos-8: Thank you for installing Chef Infra Client! For help getting started visit https://learn.chef.io
+I, [2023-12-08T17:19:32.080798 #11476]  INFO -- wordpress-app-centos-8: Transferring files to <wordpress-app-centos-8>
+I, [2023-12-08T17:19:35.766996 #11476]  INFO -- wordpress-app-centos-8: +---------------------------------------------+
+I, [2023-12-08T17:19:35.767270 #11476]  INFO -- wordpress-app-centos-8: [32m✔[0m 2 product licenses accepted.
+I, [2023-12-08T17:19:35.767438 #11476]  INFO -- wordpress-app-centos-8: +---------------------------------------------+
+I, [2023-12-08T17:19:35.845700 #11476]  INFO -- wordpress-app-centos-8: Chef Infra Client, version 18.3.0
+I, [2023-12-08T17:19:35.846016 #11476]  INFO -- wordpress-app-centos-8: Patents: https://www.chef.io/patents
+I, [2023-12-08T17:19:35.846317 #11476]  INFO -- wordpress-app-centos-8: Infra Phase starting
+I, [2023-12-08T17:19:46.596973 #11476]  INFO -- wordpress-app-centos-8: Creating a new client identity for wordpress-app-centos-8 using the validator key.
+I, [2023-12-08T17:19:46.705361 #11476]  INFO -- wordpress-app-centos-8: Resolving cookbooks for run list: ["wordpress-app::default"]
+I, [2023-12-08T17:19:46.705569 #11476]  INFO -- wordpress-app-centos-8: 
+I, [2023-12-08T17:19:46.705722 #11476]  INFO -- wordpress-app-centos-8: ================================================================================
+I, [2023-12-08T17:19:46.705906 #11476]  INFO -- wordpress-app-centos-8: Error Resolving Cookbooks for Run List:
+I, [2023-12-08T17:19:46.706051 #11476]  INFO -- wordpress-app-centos-8: ================================================================================
+I, [2023-12-08T17:19:46.706197 #11476]  INFO -- wordpress-app-centos-8: 
+I, [2023-12-08T17:19:46.706341 #11476]  INFO -- wordpress-app-centos-8: Missing Cookbooks:
+I, [2023-12-08T17:19:46.706486 #11476]  INFO -- wordpress-app-centos-8: ------------------
+I, [2023-12-08T17:19:46.706631 #11476]  INFO -- wordpress-app-centos-8: No such cookbook: wordpress-app
+I, [2023-12-08T17:19:46.706774 #11476]  INFO -- wordpress-app-centos-8: 
+I, [2023-12-08T17:19:46.706931 #11476]  INFO -- wordpress-app-centos-8: Expanded Run List:
+I, [2023-12-08T17:19:46.707073 #11476]  INFO -- wordpress-app-centos-8: ------------------
+I, [2023-12-08T17:19:46.707215 #11476]  INFO -- wordpress-app-centos-8: * wordpress-app::default
+I, [2023-12-08T17:19:46.707374 #11476]  INFO -- wordpress-app-centos-8: 
+I, [2023-12-08T17:19:46.707516 #11476]  INFO -- wordpress-app-centos-8: System Info:
+I, [2023-12-08T17:19:46.707660 #11476]  INFO -- wordpress-app-centos-8: ------------
+I, [2023-12-08T17:19:46.707803 #11476]  INFO -- wordpress-app-centos-8: chef_version=18.3.0
+I, [2023-12-08T17:19:46.707946 #11476]  INFO -- wordpress-app-centos-8: platform=centos
+I, [2023-12-08T17:19:46.708091 #11476]  INFO -- wordpress-app-centos-8: platform_version=7.9.2009
+I, [2023-12-08T17:19:46.708242 #11476]  INFO -- wordpress-app-centos-8: ruby=ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-linux]
+I, [2023-12-08T17:19:46.708390 #11476]  INFO -- wordpress-app-centos-8: program_name=/opt/chef/bin/chef-client
+I, [2023-12-08T17:19:46.708535 #11476]  INFO -- wordpress-app-centos-8: executable=/opt/chef/bin/chef-client
+I, [2023-12-08T17:19:46.708679 #11476]  INFO -- wordpress-app-centos-8: 
+I, [2023-12-08T17:19:46.708838 #11476]  INFO -- wordpress-app-centos-8: 
+I, [2023-12-08T17:19:46.708981 #11476]  INFO -- wordpress-app-centos-8: Running handlers:
+I, [2023-12-08T17:19:46.709123 #11476]  INFO -- wordpress-app-centos-8: [2023-12-08T22:19:46+00:00] ERROR: Running exception handlers
+I, [2023-12-08T17:19:46.709269 #11476]  INFO -- wordpress-app-centos-8: Running handlers complete
+I, [2023-12-08T17:19:46.709414 #11476]  INFO -- wordpress-app-centos-8: [2023-12-08T22:19:46+00:00] ERROR: Exception handlers complete
+I, [2023-12-08T17:19:46.709560 #11476]  INFO -- wordpress-app-centos-8: Infra Phase failed. 0 resources updated in 10 seconds
+I, [2023-12-08T17:19:47.134969 #11476]  INFO -- wordpress-app-centos-8: [2023-12-08T22:19:46+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2023-12-08T17:19:47.135168 #11476]  INFO -- wordpress-app-centos-8: [2023-12-08T22:19:46+00:00] FATAL: ---------------------------------------------------------------------------------------
+I, [2023-12-08T17:19:47.135313 #11476]  INFO -- wordpress-app-centos-8: [2023-12-08T22:19:46+00:00] FATAL: PLEASE PROVIDE THE CONTENTS OF THE stacktrace.out FILE (above) IF YOU FILE A BUG REPORT
+I, [2023-12-08T17:19:47.135448 #11476]  INFO -- wordpress-app-centos-8: [2023-12-08T22:19:46+00:00] FATAL: ---------------------------------------------------------------------------------------
+I, [2023-12-08T17:19:47.135605 #11476]  INFO -- wordpress-app-centos-8: [2023-12-08T22:19:46+00:00] FATAL: Net::HTTPServerException: 412 "Precondition Failed"
+E, [2023-12-08T17:19:47.177669 #11476] ERROR -- wordpress-app-centos-8: Converge failed on instance <wordpress-app-centos-8>.
+E, [2023-12-08T17:19:47.177995 #11476] ERROR -- wordpress-app-centos-8: ------Exception-------
+E, [2023-12-08T17:19:47.178142 #11476] ERROR -- wordpress-app-centos-8: Class: Kitchen::ActionFailed
+E, [2023-12-08T17:19:47.178279 #11476] ERROR -- wordpress-app-centos-8: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2023-12-08T17:19:47.178417 #11476] ERROR -- wordpress-app-centos-8: ----------------------
+E, [2023-12-08T17:19:47.178564 #11476] ERROR -- wordpress-app-centos-8: ------Backtrace-------
+E, [2023-12-08T17:19:47.178708 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/provisioner/base.rb:99:in `rescue in call'
+E, [2023-12-08T17:19:47.178838 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/provisioner/base.rb:98:in `call'
+E, [2023-12-08T17:19:47.178982 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:419:in `block in converge_action'
+E, [2023-12-08T17:19:47.179111 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:563:in `synchronize_or_call'
+E, [2023-12-08T17:19:47.179240 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:524:in `block in action'
+E, [2023-12-08T17:19:47.179368 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/3.1.0/benchmark.rb:296:in `measure'
+E, [2023-12-08T17:19:47.179524 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:523:in `action'
+E, [2023-12-08T17:19:47.179658 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:414:in `converge_action'
+E, [2023-12-08T17:19:47.179787 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:392:in `block (2 levels) in transition_to'
+E, [2023-12-08T17:19:47.179916 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/lifecycle_hooks.rb:47:in `run_with_hooks'
+E, [2023-12-08T17:19:47.180044 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:391:in `block in transition_to'
+E, [2023-12-08T17:19:47.180173 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:390:in `each'
+E, [2023-12-08T17:19:47.180302 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:390:in `transition_to'
+E, [2023-12-08T17:19:47.180431 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:161:in `verify'
+E, [2023-12-08T17:19:47.180584 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:190:in `block in test'
+E, [2023-12-08T17:19:47.180713 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/3.1.0/benchmark.rb:296:in `measure'
+E, [2023-12-08T17:19:47.180842 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:186:in `test'
+E, [2023-12-08T17:19:47.180971 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/command.rb:195:in `public_send'
+E, [2023-12-08T17:19:47.181099 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/command.rb:195:in `run_action_in_thread'
+E, [2023-12-08T17:19:47.181228 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/command.rb:166:in `block (2 levels) in run_action'
+E, [2023-12-08T17:19:47.181357 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/logging-2.3.1/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+E, [2023-12-08T17:19:47.181546 #11476] ERROR -- wordpress-app-centos-8: ----End Backtrace-----
+E, [2023-12-08T17:19:47.181751 #11476] ERROR -- wordpress-app-centos-8: ---Nested Exception---
+E, [2023-12-08T17:19:47.181883 #11476] ERROR -- wordpress-app-centos-8: Class: Kitchen::Transport::SshFailed
+E, [2023-12-08T17:19:47.182012 #11476] ERROR -- wordpress-app-centos-8: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2023-12-08T17:19:47.182142 #11476] ERROR -- wordpress-app-centos-8: ----------------------
+E, [2023-12-08T17:19:47.182271 #11476] ERROR -- wordpress-app-centos-8: ------Backtrace-------
+E, [2023-12-08T17:19:47.182400 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/provisioner/base.rb:99:in `rescue in call'
+E, [2023-12-08T17:19:47.182545 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/provisioner/base.rb:98:in `call'
+E, [2023-12-08T17:19:47.182682 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:419:in `block in converge_action'
+E, [2023-12-08T17:19:47.182815 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:563:in `synchronize_or_call'
+E, [2023-12-08T17:19:47.182946 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:524:in `block in action'
+E, [2023-12-08T17:19:47.183076 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/3.1.0/benchmark.rb:296:in `measure'
+E, [2023-12-08T17:19:47.183206 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:523:in `action'
+E, [2023-12-08T17:19:47.183336 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:414:in `converge_action'
+E, [2023-12-08T17:19:47.183484 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:392:in `block (2 levels) in transition_to'
+E, [2023-12-08T17:19:47.183695 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/lifecycle_hooks.rb:47:in `run_with_hooks'
+E, [2023-12-08T17:19:47.183828 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:391:in `block in transition_to'
+E, [2023-12-08T17:19:47.183958 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:390:in `each'
+E, [2023-12-08T17:19:47.184087 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:390:in `transition_to'
+E, [2023-12-08T17:19:47.184216 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:161:in `verify'
+E, [2023-12-08T17:19:47.184345 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:190:in `block in test'
+E, [2023-12-08T17:19:47.184507 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/3.1.0/benchmark.rb:296:in `measure'
+E, [2023-12-08T17:19:47.184644 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:186:in `test'
+E, [2023-12-08T17:19:47.184774 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/command.rb:195:in `public_send'
+E, [2023-12-08T17:19:47.184904 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/command.rb:195:in `run_action_in_thread'
+E, [2023-12-08T17:19:47.185034 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.5.0/lib/kitchen/command.rb:166:in `block (2 levels) in run_action'
+E, [2023-12-08T17:19:47.185163 #11476] ERROR -- wordpress-app-centos-8: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/logging-2.3.1/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+E, [2023-12-08T17:19:47.185292 #11476] ERROR -- wordpress-app-centos-8: ----End Backtrace-----

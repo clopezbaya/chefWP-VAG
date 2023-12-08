@@ -1,0 +1,11 @@
+Vagrant.configure("2") do |c|
+  c.berkshelf.enabled = false if Vagrant.has_plugin?("vagrant-berkshelf")
+  c.vm.box = "bento/centos-7"
+  c.vm.hostname = "wordpress-app-centos-8.vagrantup.com"
+  c.vm.synced_folder ".", "/vagrant", disabled: true
+  c.vm.synced_folder "C:/Users/Yanneth/.kitchen/cache", "/tmp/omnibus/cache", create: true
+  c.vm.provider :virtualbox do |p|
+    p.name = "kitchen-chefWP-VAG-wordpress-app-centos-8-d7c37d28-c898-4167-a5d2-070064e3230a"
+    p.customize ["modifyvm", :id, "--audio", "none"]
+  end
+end
