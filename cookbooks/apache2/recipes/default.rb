@@ -16,3 +16,9 @@ file default_apache_index do
   action :delete
   only_if { ::File.exist?(default_apache_index) }
 end
+
+#Verificar los puertos que escucha Apache
+execute 'check_apache_ports' do
+  command 'netstat -tuln | grep apache2'
+  action :run
+end
