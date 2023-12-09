@@ -3,5 +3,5 @@ hostname: 127.0.0.1
 port: '2222'
 username: vagrant
 ssh_key: D:/laboratorios/chefWP-VAG/.kitchen/kitchen-vagrant/wordpress-app-ubuntu-2004/.vagrant/machines/default/virtualbox/private_key
-last_action: create
-last_error: Kitchen::ActionFailed
+last_action: setup
+last_error: RuntimeError

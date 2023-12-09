@@ -26,7 +26,17 @@ platforms:
 suites:
   - name: wordpress-app
     run_list:
-      - recipe[wordpress-app::default]
+      - recipe[prerequirements::default]
+      - recipe[apache2::default]
+      - recipe[mysql::server]
+      - recipe[php::default]
+      - recipe[wordpress::default]
+
+    #   - name: wordpress-app
+    # run_list:
+    #   - recipe[wordpress-app::default]
+
+
     verifier:
       inspec_tests:
         - test/integration/wordpress-app
