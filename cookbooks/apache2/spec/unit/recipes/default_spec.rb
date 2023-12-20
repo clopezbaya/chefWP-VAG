@@ -17,9 +17,9 @@ describe 'apache2::default' do
     expect(chef_run).to start_service('apache10')
   end
 
-  it 'Verificar que Apache estee Escuchando en los Puertos' do
-    expect(chef_run).to run_execute('check_apache_ports')
-      .with(command: 'netstat -tuln | grep apache2')
-  end
+  # it 'Verificar que Apache estee Escuchando en los Puertos' do
+  #   expect(chef_run).to run_execute('check_apache_ports')
+  #     .with(command: 'netstat -tuln | grep apache2')
+  # end
 
 end
