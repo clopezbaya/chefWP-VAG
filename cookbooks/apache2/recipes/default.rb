@@ -1,3 +1,7 @@
+execute 'apt-get update' do
+  action :run
+end
+
 # Instalar Apache
 package 'apache2' do
   action :install
